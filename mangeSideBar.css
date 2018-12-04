@@ -1,0 +1,56 @@
+/*sidebar icon*/
+#menuIcon{
+  position: relative;
+  top: 20px;
+  width: 100px;
+  height: 20px;
+}
+.menuBtn{
+  background: transparent;
+  border: none;
+  display: block;
+  height: 32px;
+  margin-left: 15px;
+  position: fixed;
+  top: 20px;
+  width: 32px;
+  z-index: 999;
+  box-shadow:none;
+  outline: none;
+}
+#menuIcon span{
+  height: 4px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  background-color: #2aabd2;
+}
+.menuTop{
+  top: 5px;
+}
+.menuMid{
+  top: 50%;
+  transform: translateY(-50%);
+}
+.menuBot{
+  bottom: 5px;
+}
+
+/*sidebar*/
+.sidebar{
+  height: 1000px;
+  background-color: #2b542c;
+}
+.top-open{
+  transform-origin: center center;
+  margin: -2px 0;
+  top: 50%;
+  transform: rotate(45deg);
+}
+.bot-open{
+  transform-origin: center center;
+  margin: -2px 0;
+  top: 50%;
+  transform: rotate(-45deg);
+}
+
