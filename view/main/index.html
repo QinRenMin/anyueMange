@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录界面</title>
+    <style type="text/css">
+        body{
+            margin: 0;
+            padding: 0;
+            background: url("../../img/bg2.jpg") no-repeat;
+            background-size: 100% 100%;
+            height: 800px;
+        }
+
+        .center-in-center{
+            width: 400px;
+            height: 200px;
+            background-color: white;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .text{
+            font: bold 60px/1.5 '微软雅黑';
+            color: dodgerblue;
+            /*文本阴影*/
+            text-shadow: 10px 10px 50px #000;
+        }
+        p{
+            text-align: center;
+        }
+        .content{
+            display: block;
+            margin-top: 20px;
+            text-align: center;
+            border-collapse: separate;
+            border-spacing:0 20px;
+        }
+      tr{
+          height: 40px;
+          width: 200px;
+      }
+        td input{
+            width: 300px;
+            height: 30px;
+        }
+        td span{
+            font-size: 20px;
+        }
+        button{
+            width: 100%;
+            height: 40px;
+            font-size: 20px;
+            background-color: #2aabd2;
+        }
+        button:hover{
+           cursor: pointer;
+        }
+        a{
+           text-decoration:none;
+        }
+        </style>
+</head>
+<body style='overflow:Scroll;overflow-x:hidden;overflow-y:hidden'>
+<p class="text">安悦商城后台管理系统</p>
+    <div class="center-in-center">
+        <table class="content">
+            <tbody>
+            <tr>
+                <td><span>用户名:</span></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><span>密码:</span></td>
+                <td><input type="password"></td>
+            </tr>
+            </tbody>
+        </table>
+        <div>
+            <button type="submit"><a href="">登录</a></button>
+        </div>
+    </div>
+
+
+
+</body>
+</html>
