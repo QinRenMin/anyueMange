@@ -4,25 +4,6 @@ function mangeInit() {
   $('.hamburger').on('click',function () {
    hamburger_cross();
   });
-  //
-  //   //点击切换不同的显示
-  // let Ul = document.getElementById("Ul");
-  // let oLi = Ul.getElementsByTagName("li");
-  // let oA = Ul.getElementsByTagName("a");
-  // let oDiv = document.getElementsByClassName("showIt");
-  // for(let i = 1; i < oA.length; i++) {
-  //
-  //   oA[i].onclick = function () {
-  //       for(let j = 0; j < oDiv.length; j++){
-  //         oLi[j+1].className = '';
-  //       }
-  //       oLi[i].className = 'current';
-  //   }
-  //
-  // }
-  //
-  //   //实现各部分的搜索功能
-  //   let getUser = document.getElementById("findUser");
 
 }
 

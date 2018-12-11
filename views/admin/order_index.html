@@ -74,4 +74,11 @@
     </div>
 </div>
 {%include 'page.html' %}
+<script type="text/javascript">
+    let lis = document.getElementsByTagName("li");
+
+    lis[1].className="";
+    lis[4].className="current";
+    console.log(lis[4].style.class);
+</script>
 {% endblock %}
