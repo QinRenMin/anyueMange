@@ -4,7 +4,7 @@ function mangeInit() {
   $('.hamburger').on('click',function () {
    hamburger_cross();
   });
-
+  //
   //   //点击切换不同的显示
   // let Ul = document.getElementById("Ul");
   // let oLi = Ul.getElementsByTagName("li");
@@ -14,10 +14,8 @@ function mangeInit() {
   //
   //   oA[i].onclick = function () {
   //       for(let j = 0; j < oDiv.length; j++){
-  //         oDiv[j].style.display = 'none';
   //         oLi[j+1].className = '';
   //       }
-  //       oDiv[i-1].style.display="block";
   //       oLi[i].className = 'current';
   //   }
   //

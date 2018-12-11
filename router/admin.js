@@ -1,8 +1,11 @@
 let express = require("express");
 let router =  express.Router();
 router.get("/",function (req,res,next) {
-    res.render("admin/index");
+    res.render("admin/main_index");
 
+});
+router.get("/user",function (req,res,next) {
+    res.render("admin/user_index")
 });
 router.get("/main",function (req,res,next) {
     res.render("admin/main_index")
