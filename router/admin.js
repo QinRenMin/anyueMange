@@ -4,4 +4,17 @@ router.get("/",function (req,res,next) {
     res.render("admin/index");
 
 });
+router.get("/main",function (req,res,next) {
+    res.render("admin/main_index")
+});
+router.get("/class",function (req,res,next) {
+    res.render("admin/class_index")
+});
+router.get("/goods",function (req,res,next) {
+    res.render("admin/goods_index")
+});
+router.get("/order",function (req,res,next) {
+    res.render("admin/order_index")
+});
+
 module.exports = router;
